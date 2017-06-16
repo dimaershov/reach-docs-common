@@ -76,6 +76,8 @@ _Figure 3_
 #### Averaged float and fix
 
 Averaging RTK fix solution is way more accurate than single averaging and becomes possible when the receiver used as the base is configured to obtain NTRIP corrections over the Internet. This might be useful if the reference station is located too far and reducing baseline by installing the local base improves positioning performance of rover.  
+
+<p style="text-align:center"><img src="../img/reach/placing-the-base/averaged-float.gif" style="width: 600px;"/></p>
  
 On the left of the next illustration (see figure 4) the rover passes the same path and receives the corrections from the base configured using averaged fix position.  
 When the base is set up using averaged fix solution, the coordinates are determined with a centimeter accuracy (if obtaning survey-grade NTRIP corrections). In this case the deviations of the each path built immediately after reaveraging several times will be within few centimeters, take a look at figure 5. 
